@@ -1,11 +1,9 @@
-````markdown
 # Go gRPC Streaming Practice
 
 A beginner-friendly Go project for learning **gRPC communication and different types of RPC streaming** using Protocol Buffers.
 
 ## Project Structure
 
-```text
 GO_GRPC/
 ├── client/
 │   └── main.go
@@ -52,7 +50,6 @@ rpc SayHello(NoParam) returns (HelloResponse);
 
 One request → Multiple responses
 
-```text
 Client ── Request ──> Server
 
 Client <── Response ── Server
